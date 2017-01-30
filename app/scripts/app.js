@@ -20,7 +20,7 @@
                templateUrl: '/templates/collection.html'
             });
     }
-    angular
+    angular /*global angular*/
         .module('blocJams', ['ui.router'])
         .config(config);
 })();
